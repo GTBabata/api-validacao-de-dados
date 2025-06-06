@@ -1,0 +1,62 @@
+[
+  {
+    "id": "a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11",
+    "name": "Carlos Silva",
+    "email": "carlos.silva@gmail.com",
+    "permission": "admin"
+  },
+  {
+    "id": "a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a12",
+    "name": "Mariana Oliveira",
+    "email": "mariana.oliveira@gmail.com",
+    "permission": "user"
+  },
+  {
+    "id": "a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a13",
+    "name": "João Souza",
+    "email": "joao.souza@gmail.com",
+    "permission": "user"
+  },
+  {
+    "id": "a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a14",
+    "name": "Fernanda Costa",
+    "email": "fernanda.costa@gmail.com",
+    "permission": "superadmin"
+  },
+  {
+    "id": "a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a15",
+    "name": "Pedro Lima",
+    "email": "pedro.lima@gmail.com",
+    "permission": "admin"
+  },
+  {
+    "id": "a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a16",
+    "name": "Amanda Rodrigues",
+    "email": "amanda.rodrigues@gmail.com",
+    "permission": "user"
+  },
+  {
+    "id": "a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a17",
+    "name": "Ricardo Almeida",
+    "email": "ricardo.almeida@gmail.com",
+    "permission": "user"
+  },
+  {
+    "id": "a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a18",
+    "name": "Juliana Pereira",
+    "email": "juliana.pereira@gmail.com",
+    "permission": "admin"
+  },
+  {
+    "id": "a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a19",
+    "name": "Thiago Gomes",
+    "email": "thiago.gomes@gmail.com",
+    "permission": "superadmin"
+  },
+  {
+    "id": "a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a20",
+    "name": "Renata Fernandes",
+    "email": "renata.fernandes@gmail.com",
+    "permission": "user"
+  }
+]
