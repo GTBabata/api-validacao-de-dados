@@ -25,7 +25,7 @@ npm install
 npm run start:dev
 ```
 
-Acesse a api em: [http://localhost:3000](http://localhost:3000)
+Acesse a api em: [http://localhost:3000](http://localhost:3000), ou acesse a documentação da api em: [http://localhost:3000/docs](http://localhost:3000/docs)
 
 ### Ambiente de Produção
 
