@@ -41,14 +41,25 @@ export class UsersService {
     return user;
   }
 
-  update(_id: string, updateUserDto: UpdateUserRequestDto) {
+  update(
+    id: string,
+    updateUserDto: UpdateUserRequestDto,
+  ): UpdateUserResponseDto | undefined {
+    const user = usersList.find((user) => user.id === id);
+
+    if (!user) {
+      return user;
+    }
+
+    // Criando um novo objeto com os dados do usuário atualizado para mock
     const updatedUser: UpdateUserResponseDto = {
-      id: '',
-      name: updateUserDto.name,
-      email: updateUserDto.email,
-      permission: updateUserDto.permission,
-      age: updateUserDto.age,
+      id: user.id,
+      name: updateUserDto.name ?? user.name,
+      email: updateUserDto.email ?? user.email,
+      permission: updateUserDto.permission ?? user.permission,
+      age: updateUserDto.age ?? user.age,
     };
+
     return updatedUser;
   }
 
