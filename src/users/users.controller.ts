@@ -53,8 +53,11 @@ export class UsersController {
     status: 404,
     description: 'Esse tipo de permissão não existe',
   })
-  findAll(@Query('permission') permission: Permission, @Res() res: Response) {
-    if (permission) {
+  findAll(@Query('permission') permission: string, @Res() res: Response) {
+    if (
+      permission &&
+      !Object.values(Permission).includes(permission as Permission)
+    ) {
       return res
         .status(HttpStatus.NOT_FOUND)
         .json({ message: 'Esse tipo de permissão não existe' });
